@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Salary calculation</title>
+  </head>
+  <body>
+    <h1>Salary calculation</h1>
+
+    <div class="salary_month">
+      <label for=""
+        >Write your salary:
+        <input id="salary" type="number" placeholder="You salary"
+      /></label>
+      <label for=""
+        >Write month: <input id="month" type="number" placeholder="Month" />
+      </label>
+      <div id="totalSalary"></div>
+      <button id="result" onclick="result_all()">Result</button>
+    </div>
+
+    <div class="salary_tax">
+      <label for=""
+        >Write your salary:
+        <input id="salary_tax" type="number" placeholder="You salary"
+      /></label>
+      <label for=""
+        >Write month: <input id="month_tax" type="number" placeholder="Month" />
+      </label>
+      <label for=""
+        >Write your tax <input id="tax" type="number" placeholder="Tax"
+      /></label>
+      <div id="totalSalary_tax"></div>
+      <button id="result_tax" onclick="salary_tax()">Result</button>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
