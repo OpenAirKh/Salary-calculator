@@ -57,7 +57,7 @@ function salary_month(salary, month) {
 return salary * month;
 
 }
-let a =1;
+
 
 function salary_month_tax(salary, month, tax) {
 
